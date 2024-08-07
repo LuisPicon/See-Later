@@ -9,7 +9,7 @@ const Menu = () => {
     <nav className="d-flex align-items-center justify-content-between gap-6 bottom-0 menu">
       <h2 className="menu__logo">
         <NavLink to="/">
-          <span className="verde-claro">See</span>
+          <span className="verde-claro">Watch </span>
           Later
         </NavLink>
       </h2>
