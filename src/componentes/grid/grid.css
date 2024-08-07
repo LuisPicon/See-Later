@@ -1,0 +1,26 @@
+.grid__cards {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto-fill, 300px);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 1.5rem 1rem;
+  margin-bottom: 3.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .grid__cards {
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 0.5rem;
+    gap: 2rem 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .grid__cards {
+    grid-template-rows: repeat(auto-fill, 350px);
+
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

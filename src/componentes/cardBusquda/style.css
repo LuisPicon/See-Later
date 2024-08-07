@@ -1,0 +1,30 @@
+:root {
+  --color: ;
+}
+.cardBusqueda {
+  width: 100%;
+  height: 6rem;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s ease;
+}
+
+.cardBusqueda img {
+  min-width: 1rem;
+  max-width: 6rem;
+  object-fit: cover;
+  height: 6rem;
+}
+.cardBusqueda__titulo {
+  color: #060613;
+  transition: color 0.3s ease;
+}
+.cardBusqueda:hover .cardBusqueda__titulo {
+  color: var(--color) !important;
+}
+.cardBusqueda__type {
+  background-color: var(--color);
+  border-radius: 1rem;
+  width: 5rem;
+  text-align: center;
+  color: #fff;
+}

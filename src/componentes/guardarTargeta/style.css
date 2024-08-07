@@ -1,0 +1,30 @@
+.guardar__tarjeta {
+  position: absolute;
+  background-color: #141c2fe1;
+  top: 0.2rem;
+  right: 0.2rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: scale 0.3s ease;
+}
+.guardar__tarjeta:hover .btn__ampliar {
+  opacity: 0;
+}
+.guardar__tarjeta {
+  color: #fff;
+}
+@-moz-keyframes top {
+  to {
+    transform: translateY(0);
+  }
+}
+.notificationSaved {
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+  animation: top 0.3s ease both;
+}

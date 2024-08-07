@@ -1,0 +1,10 @@
+.placeholder {
+  background-color: #ffffff31;
+  --ds-skeleton: rgba(161, 189, 217, 0.2);
+}
+html[data-bs-theme="light"] {
+  & .placeholder {
+    --bs-placeholder-bg: rgb(0 0 0 / 20%);
+    background-color: rgb(0 0 0 / 20%);
+  }
+}

@@ -1,0 +1,55 @@
+:root {
+  --bs-body-bg: #060613;
+  --verde-claro: #5effc3;
+  --ds-background-neutral: #141c2f;
+  --bs-btn-active-color: none;
+  --bs-btn-active-color: none;
+  --bs-btn-active-bg: none;
+  --ds-background-selected: var(--ds-background-neutral);
+  --ds-text-selected: none;
+  --ds-background-neutral-subtle-hovered: var(--ds-background-neutral);
+  --ds-border-focused: none;
+  --ds-background-input: #fff;
+  --ds-background-input-hovered: #ffffffc4;
+  --text-title: #fff;
+  --ds-background-input-hovered: #fff;
+  --dark-mode: #fff;
+  --color-dark-mode: #000;
+}
+
+html[data-bs-theme="light"] {
+  --bs-body-bg: #f0f8ff;
+  --verde-claro: ;
+  --ds-background-neutral: rgba(9, 30, 66, 0.06);
+  --text-title: #060613;
+  --dark-mode: #000;
+  --color-dark-mode: #fff;
+  & .text-white {
+    color: #060613 !important;
+  }
+}
+html {
+  scrollbar-gutter: stable;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+p {
+  margin: 0;
+}
+.text-title {
+  color: var(--text-title) !important;
+}
+
+img {
+  min-width: 100%;
+  width: 100%;
+}
+.bg-dark-mode {
+  background-color: var(--dark-mode);
+}
+.color-dark-mode {
+  color: var(--color-dark-mode);
+}

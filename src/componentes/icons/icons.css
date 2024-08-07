@@ -1,0 +1,20 @@
+:root {
+  --border-color: #fff;
+}
+.spinner-border {
+  border-top-color: var(--border-color) !important;
+  border-bottom-color: var(--border-color) !important;
+  border-left-color: var(--border-color) !important;
+  margin: auto;
+  border-width: 3px;
+}
+.spinner-search {
+  border-top-color: #060613 !important;
+  border-bottom-color: #060613 !important;
+  border-left-color: #060613 !important;
+  margin: auto;
+  border-width: 3px;
+}
+html[data-bs-theme="light"] {
+  --border-color: #060613;
+}

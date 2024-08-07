@@ -1,0 +1,6 @@
+.btn__open {
+  background-color: var(--bs-btn-hover-bg) !important;
+}
+.btn__open::after {
+  color: var(--color-dark-mode);
+}

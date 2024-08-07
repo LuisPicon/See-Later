@@ -1,0 +1,16 @@
+:root {
+  --white: #fff;
+}
+.cabecera {
+  background-color: var(--bs-body-bg);
+}
+.cabecera a {
+  color: var(--white);
+}
+html[data-bs-theme="light"] {
+  --white: #060613;
+}
+
+.cabecera__herramientas {
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+@keyframes top {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+.top-animation {
+  animation: top 0.2s ease-in;
+}
+.position-bottom {
+  position: fixed !important;
+  bottom: 2.5rem;
+  right: 0.5rem;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+}
+.positionConfig {
+  bottom: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+  .position-bottom {
+    right: 1.5rem;
+    bottom: 1rem;
+  }
+  .positionConfig {
+    right: 1rem;
+    bottom: 0;
+  }
+}

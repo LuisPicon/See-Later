@@ -1,0 +1,46 @@
+.card__item {
+  height: 300px;
+  overflow: hidden;
+}
+.card__item__img {
+  width: 100%;
+  border-radius: 0.5rem;
+  min-height: 250px;
+  height: 250px;
+  cursor: cell;
+  margin-bottom: 3px;
+}
+.btn__ampliar {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 1.8rem;
+  height: 1.8rem;
+  bottom: 0.7rem;
+  left: 0.5rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #141c2fec;
+  cursor: cell;
+}
+.btn__ampliar img {
+  padding: 3px;
+}
+@media screen and (min-width: 1024px) {
+  .card__item {
+    height: 350px;
+  }
+  .card__item__img {
+    min-height: 300px;
+    height: 300px;
+  }
+  .btn__ampliar {
+    opacity: 0;
+    transition: opacity 0.3s linear;
+  }
+  .card__item:hover .btn__ampliar {
+    opacity: 1;
+  }
+}
